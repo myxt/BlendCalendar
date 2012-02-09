@@ -1,0 +1,66 @@
+label.inline
+{
+    display: inline;
+}
+
+.bc-recurs
+{
+    border: 1px solid #777777;
+    background: #DDDDDD;
+    padding: 8px;
+}
+
+.bc-calendar-quickview
+{
+    height: 200px;
+}
+
+.bc-calendar-quickview .right
+{
+    height: 200px; 
+    overflow-y: scroll;
+    padding: 0 10px;
+}
+
+.bc-quickview-list .event
+{
+    padding: 3px;
+}
+
+.bc-quickview-list .event img
+{
+    vertical-align: middle;
+}
+
+table.blendcalendar
+{
+    text-align: center;
+}
+
+table.blendcalendar th
+{
+    padding: 3px; 
+
+}
+
+table.blendcalendar a, table.blendcalendar span
+{
+    padding: 3px;
+    display: block;
+}
+
+table.blendcalendar .selected
+{
+    background: #51759a;
+    color: white;
+}
+
+div.context-toolbar .bc-quickview-next, div.context-toolbar .bc-quickview-prev
+{
+    display: block;
+    padding: 0 18px;
+    float: left;
+}
+
+.bc-quickview .result { overflow: hidden; }
+.bc-quickview .calendar { float: left; width: 40%; }
